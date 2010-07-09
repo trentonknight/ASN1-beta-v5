@@ -58,6 +58,7 @@
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
    <value key="QtVersionId" type="int">0</value>
    <value key="ToolChain" type="int">0</value>
+   <value key="addQDumper" type=""></value>
    <value key="buildConfiguration" type="int">2</value>
   </valuemap>
  </data>
@@ -66,6 +67,7 @@
   <valuemap type="QVariantMap">
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Release</value>
    <value key="QtVersionId" type="int">0</value>
+   <value key="addQDumper" type=""></value>
    <value key="buildConfiguration" type="int">0</value>
   </valuemap>
  </data>
@@ -74,7 +76,7 @@
   <valuemap type="QVariantMap">
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
    <valuelist key="abstractProcess.Environment" type="QVariantList">
-    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-ouYuDDv5Zt,guid=f85710a667dde1ada8d713304c337efd</value>
+    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-AOEgvTXe4S,guid=0df837881f1dfd5c6075d7a24c34f28f</value>
     <value type="QString">DEFAULTS_PATH=/usr/share/gconf/gnome.default.path</value>
     <value type="QString">DESKTOP_SESSION=gnome</value>
     <value type="QString">DISPLAY=:0.0</value>
@@ -82,8 +84,8 @@
     <value type="QString">GDM_KEYBOARD_LAYOUT=us</value>
     <value type="QString">GDM_LANG=en_US.utf8</value>
     <value type="QString">GNOME_DESKTOP_SESSION_ID=this-is-deprecated</value>
-    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-bfenpm</value>
-    <value type="QString">GNOME_KEYRING_PID=1470</value>
+    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-0EWhfr</value>
+    <value type="QString">GNOME_KEYRING_PID=1473</value>
     <value type="QString">GTK_MODULES=canberra-gtk-module</value>
     <value type="QString">HOME=/home/trentonknight</value>
     <value type="QString">LANG=en_US.utf8</value>
@@ -98,16 +100,16 @@
     <value type="QString">SHELL=/bin/bash</value>
     <value type="QString">SPEECHD_PORT=7560</value>
     <value type="QString">SSH_AGENT_PID=1525</value>
-    <value type="QString">SSH_AUTH_SOCK=/tmp/keyring-bfenpm/ssh</value>
+    <value type="QString">SSH_AUTH_SOCK=/tmp/keyring-0EWhfr/ssh</value>
     <value type="QString">USER=trentonknight</value>
     <value type="QString">USERNAME=trentonknight</value>
-    <value type="QString">XAUTHORITY=/var/run/gdm/auth-for-trentonknight-NrP60W/database</value>
+    <value type="QString">XAUTHORITY=/var/run/gdm/auth-for-trentonknight-QFEAHp/database</value>
     <value type="QString">XDG_CONFIG_DIRS=/etc/xdg/xdg-gnome:/etc/xdg</value>
     <value type="QString">XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/</value>
-    <value type="QString">XDG_SESSION_COOKIE=96a2abb8a3af8e7d529331a64b95958e-1278443261.555599-305993675</value>
+    <value type="QString">XDG_SESSION_COOKIE=96a2abb8a3af8e7d529331a64b95958e-1278538383.599655-1046614946</value>
    </valuelist>
    <valuelist key="abstractProcess.arguments" type="QVariantList">
-    <value type="QString">/home/trentonknight/Development/REGIS/CS362/ASN1-beta5/MansfieldAssn1-b4/MansfieldAssn1-b4.pro</value>
+    <value type="QString">/home/trentonknight/Development/REGIS/CS362/ASN1-beta5/ASN1-beta-v5/MansfieldAssn1-b4.pro</value>
     <value type="QString">-spec</value>
     <value type="QString">linux-g++-64</value>
     <value type="QString">-r</value>
@@ -115,7 +117,7 @@
    </valuelist>
    <value key="abstractProcess.command" type="QString">/opt/qtsdk-2010.02/qt/bin/qmake</value>
    <value key="abstractProcess.enabled" type="bool">false</value>
-   <value key="abstractProcess.workingDirectory" type="QString">/home/trentonknight/Development/REGIS/CS362/ASN1-beta5/MansfieldAssn1-b4</value>
+   <value key="abstractProcess.workingDirectory" type="QString">/home/trentonknight/Development/REGIS/CS362/ASN1-beta5/ASN1-beta-v5</value>
   </valuemap>
  </data>
  <data>
@@ -123,7 +125,7 @@
   <valuemap type="QVariantMap">
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
    <valuelist key="abstractProcess.Environment" type="QVariantList">
-    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-ouYuDDv5Zt,guid=f85710a667dde1ada8d713304c337efd</value>
+    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-AOEgvTXe4S,guid=0df837881f1dfd5c6075d7a24c34f28f</value>
     <value type="QString">DEFAULTS_PATH=/usr/share/gconf/gnome.default.path</value>
     <value type="QString">DESKTOP_SESSION=gnome</value>
     <value type="QString">DISPLAY=:0.0</value>
@@ -131,8 +133,8 @@
     <value type="QString">GDM_KEYBOARD_LAYOUT=us</value>
     <value type="QString">GDM_LANG=en_US.utf8</value>
     <value type="QString">GNOME_DESKTOP_SESSION_ID=this-is-deprecated</value>
-    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-bfenpm</value>
-    <value type="QString">GNOME_KEYRING_PID=1470</value>
+    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-0EWhfr</value>
+    <value type="QString">GNOME_KEYRING_PID=1473</value>
     <value type="QString">GTK_MODULES=canberra-gtk-module</value>
     <value type="QString">HOME=/home/trentonknight</value>
     <value type="QString">LANG=en_US.utf8</value>
@@ -147,13 +149,13 @@
     <value type="QString">SHELL=/bin/bash</value>
     <value type="QString">SPEECHD_PORT=7560</value>
     <value type="QString">SSH_AGENT_PID=1525</value>
-    <value type="QString">SSH_AUTH_SOCK=/tmp/keyring-bfenpm/ssh</value>
+    <value type="QString">SSH_AUTH_SOCK=/tmp/keyring-0EWhfr/ssh</value>
     <value type="QString">USER=trentonknight</value>
     <value type="QString">USERNAME=trentonknight</value>
-    <value type="QString">XAUTHORITY=/var/run/gdm/auth-for-trentonknight-NrP60W/database</value>
+    <value type="QString">XAUTHORITY=/var/run/gdm/auth-for-trentonknight-QFEAHp/database</value>
     <value type="QString">XDG_CONFIG_DIRS=/etc/xdg/xdg-gnome:/etc/xdg</value>
     <value type="QString">XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/</value>
-    <value type="QString">XDG_SESSION_COOKIE=96a2abb8a3af8e7d529331a64b95958e-1278443261.555599-305993675</value>
+    <value type="QString">XDG_SESSION_COOKIE=96a2abb8a3af8e7d529331a64b95958e-1278538383.599655-1046614946</value>
    </valuelist>
    <value key="abstractProcess.IgnoreReturnValue" type="bool">false</value>
    <valuelist key="abstractProcess.arguments" type="QVariantList">
@@ -161,7 +163,7 @@
    </valuelist>
    <value key="abstractProcess.command" type="QString">/usr/bin/make</value>
    <value key="abstractProcess.enabled" type="bool">true</value>
-   <value key="abstractProcess.workingDirectory" type="QString">/home/trentonknight/Development/REGIS/CS362/ASN1-beta5/MansfieldAssn1-b4</value>
+   <value key="abstractProcess.workingDirectory" type="QString">/home/trentonknight/Development/REGIS/CS362/ASN1-beta5/ASN1-beta-v5</value>
   </valuemap>
  </data>
  <data>

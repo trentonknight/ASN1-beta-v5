@@ -99,9 +99,6 @@ void getFine(double& fine, double& fee)
 }
 
 void sendForViewer(double& totalAmt, int fines)
-{
-
-
-    cout << fines << "\t" << totalAmt << endl;
-
+{  
+    cout << fines << "\t" << totalAmt << endl;  
 }

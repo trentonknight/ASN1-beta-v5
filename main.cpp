@@ -7,7 +7,7 @@ using namespace std;
 
 void getTicket(ifstream& logTicket, ofstream& logCar, ofstream& logQuad);
 void getFine(double& fine, double& fee);
-
+void printScreen();
 
 int main()
 {
@@ -39,9 +39,10 @@ void getTicket(ifstream& logTicket,ofstream& logCar, ofstream& logQuad)
     string inputPlate;
     string lastPlateRecord;
     string inputQuad;
+    string outPut;
     double sLimit;
     double sBroken;
-    double fine, fee, TotalFines;
+    double fine, fee, TotalFines, TotalTotalFines;
     int count, lastCount;
     char ch;
 
@@ -52,15 +53,13 @@ void getTicket(ifstream& logTicket,ofstream& logCar, ofstream& logQuad)
         lastPlateRecord.assign(inputPlate);
         logTicket >> inputPlate;
         logTicket.get(ch);
+        TotalTotalFines = TotalFines + TotalTotalFines;
 
         if (lastPlateRecord.compare(inputPlate) != 0)
         {
             logCar << inputPlate << "\t";
-
             count = 0;
-            TotalFines = 0.0;
-            cout << inputPlate << "\t";
-
+            TotalFines = 0.0;       
         }
         while((ch != '\n') && logTicket)
         {
@@ -76,9 +75,13 @@ void getTicket(ifstream& logTicket,ofstream& logCar, ofstream& logQuad)
         }
         if(count == lastCount)
         {
-            cout << count << "\t"<< TotalFines << endl;
+          printScreen();
+          cout << inputPlate << "\t" << count << "\t\t"<< "$" << TotalFines << endl;
         }
+
     }
+     cout << "Total District Fines: \t\t$" << TotalTotalFines << endl;
+
 }
 
 void getFine(double& fine, double& fee)
@@ -99,4 +102,8 @@ void getFine(double& fine, double& fee)
 
 }
 
-
+void printScreen()
+{
+   cout << fixed << showpoint << setprecision(2) << endl;
+   cout << "License\t" << "Number Tickets\t" << "Total Fines" << endl;
+}

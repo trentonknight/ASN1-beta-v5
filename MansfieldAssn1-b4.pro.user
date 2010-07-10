@@ -76,37 +76,40 @@
   <valuemap type="QVariantMap">
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
    <valuelist key="abstractProcess.Environment" type="QVariantList">
-    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-AOEgvTXe4S,guid=0df837881f1dfd5c6075d7a24c34f28f</value>
-    <value type="QString">DEFAULTS_PATH=/usr/share/gconf/gnome.default.path</value>
-    <value type="QString">DESKTOP_SESSION=gnome</value>
+    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-J1bfl7zve1,guid=b102dd48004154462e388a014c388692</value>
+    <value type="QString">DEFAULTS_PATH=/usr/share/gconf/xubuntu.default.path</value>
+    <value type="QString">DESKTOP_SESSION=xubuntu</value>
     <value type="QString">DISPLAY=:0.0</value>
-    <value type="QString">GDMSESSION=gnome</value>
+    <value type="QString">GDMSESSION=xubuntu</value>
     <value type="QString">GDM_KEYBOARD_LAYOUT=us</value>
-    <value type="QString">GDM_LANG=en_US.utf8</value>
-    <value type="QString">GNOME_DESKTOP_SESSION_ID=this-is-deprecated</value>
-    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-0EWhfr</value>
-    <value type="QString">GNOME_KEYRING_PID=1473</value>
+    <value type="QString">GLADE_CATALOG_PATH=:/usr/share/glade3/catalogs</value>
+    <value type="QString">GLADE_MODULE_PATH=:/usr/lib/glade3/modules</value>
+    <value type="QString">GLADE_PIXMAP_PATH=:/usr/share/glade3/pixmaps</value>
+    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-8nsyB6</value>
+    <value type="QString">GNOME_KEYRING_PID=1485</value>
     <value type="QString">GTK_MODULES=canberra-gtk-module</value>
+    <value type="QString">GTK_PATH=:/usr/lib/gtk-2.0</value>
     <value type="QString">HOME=/home/trentonknight</value>
     <value type="QString">LANG=en_US.utf8</value>
     <value type="QString">LD_LIBRARY_PATH=/opt/qtsdk-2010.02/lib/qtcreator:</value>
+    <value type="QString">LIBGLADE_MODULE_PATH=:/usr/lib/libglade/2.0</value>
     <value type="QString">LOGNAME=trentonknight</value>
-    <value type="QString">MANDATORY_PATH=/usr/share/gconf/gnome.mandatory.path</value>
+    <value type="QString">MANDATORY_PATH=/usr/share/gconf/xubuntu.mandatory.path</value>
     <value type="QString">ORBIT_SOCKETDIR=/tmp/orbit-trentonknight</value>
     <value type="QString">PATH=/opt/qtsdk-2010.02/qt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games</value>
-    <value type="QString">PWD=/opt/qtsdk-2010.02/bin</value>
+    <value type="QString">PWD=/home/trentonknight</value>
     <value type="QString">QTDIR=/opt/qtsdk-2010.02/qt</value>
-    <value type="QString">SESSION_MANAGER=local/T1000:@/tmp/.ICE-unix/1491,unix/T1000:/tmp/.ICE-unix/1491</value>
+    <value type="QString">SESSION_MANAGER=local/T1000:@/tmp/.ICE-unix/1555,unix/T1000:/tmp/.ICE-unix/1555</value>
     <value type="QString">SHELL=/bin/bash</value>
     <value type="QString">SPEECHD_PORT=7560</value>
-    <value type="QString">SSH_AGENT_PID=1525</value>
-    <value type="QString">SSH_AUTH_SOCK=/tmp/keyring-0EWhfr/ssh</value>
+    <value type="QString">SSH_AGENT_PID=1538</value>
+    <value type="QString">SSH_AUTH_SOCK=/tmp/ssh-HUbQmf1503/agent.1503</value>
     <value type="QString">USER=trentonknight</value>
     <value type="QString">USERNAME=trentonknight</value>
-    <value type="QString">XAUTHORITY=/var/run/gdm/auth-for-trentonknight-QFEAHp/database</value>
-    <value type="QString">XDG_CONFIG_DIRS=/etc/xdg/xdg-gnome:/etc/xdg</value>
-    <value type="QString">XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/</value>
-    <value type="QString">XDG_SESSION_COOKIE=96a2abb8a3af8e7d529331a64b95958e-1278538383.599655-1046614946</value>
+    <value type="QString">XAUTHORITY=/var/run/gdm/auth-for-trentonknight-obR3CS/database</value>
+    <value type="QString">XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg</value>
+    <value type="QString">XDG_DATA_DIRS=/etc/xdg/xdg-xubuntu:/usr/local/share:/usr/share</value>
+    <value type="QString">XDG_SESSION_COOKIE=96a2abb8a3af8e7d529331a64b95958e-1278772882.267941-317537604</value>
    </valuelist>
    <valuelist key="abstractProcess.arguments" type="QVariantList">
     <value type="QString">/home/trentonknight/Development/REGIS/CS362/ASN1-beta5/ASN1-beta-v5/MansfieldAssn1-b4.pro</value>
@@ -125,37 +128,40 @@
   <valuemap type="QVariantMap">
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
    <valuelist key="abstractProcess.Environment" type="QVariantList">
-    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-AOEgvTXe4S,guid=0df837881f1dfd5c6075d7a24c34f28f</value>
-    <value type="QString">DEFAULTS_PATH=/usr/share/gconf/gnome.default.path</value>
-    <value type="QString">DESKTOP_SESSION=gnome</value>
+    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-J1bfl7zve1,guid=b102dd48004154462e388a014c388692</value>
+    <value type="QString">DEFAULTS_PATH=/usr/share/gconf/xubuntu.default.path</value>
+    <value type="QString">DESKTOP_SESSION=xubuntu</value>
     <value type="QString">DISPLAY=:0.0</value>
-    <value type="QString">GDMSESSION=gnome</value>
+    <value type="QString">GDMSESSION=xubuntu</value>
     <value type="QString">GDM_KEYBOARD_LAYOUT=us</value>
-    <value type="QString">GDM_LANG=en_US.utf8</value>
-    <value type="QString">GNOME_DESKTOP_SESSION_ID=this-is-deprecated</value>
-    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-0EWhfr</value>
-    <value type="QString">GNOME_KEYRING_PID=1473</value>
+    <value type="QString">GLADE_CATALOG_PATH=:/usr/share/glade3/catalogs</value>
+    <value type="QString">GLADE_MODULE_PATH=:/usr/lib/glade3/modules</value>
+    <value type="QString">GLADE_PIXMAP_PATH=:/usr/share/glade3/pixmaps</value>
+    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-8nsyB6</value>
+    <value type="QString">GNOME_KEYRING_PID=1485</value>
     <value type="QString">GTK_MODULES=canberra-gtk-module</value>
+    <value type="QString">GTK_PATH=:/usr/lib/gtk-2.0</value>
     <value type="QString">HOME=/home/trentonknight</value>
     <value type="QString">LANG=en_US.utf8</value>
     <value type="QString">LD_LIBRARY_PATH=/opt/qtsdk-2010.02/lib/qtcreator:</value>
+    <value type="QString">LIBGLADE_MODULE_PATH=:/usr/lib/libglade/2.0</value>
     <value type="QString">LOGNAME=trentonknight</value>
-    <value type="QString">MANDATORY_PATH=/usr/share/gconf/gnome.mandatory.path</value>
+    <value type="QString">MANDATORY_PATH=/usr/share/gconf/xubuntu.mandatory.path</value>
     <value type="QString">ORBIT_SOCKETDIR=/tmp/orbit-trentonknight</value>
     <value type="QString">PATH=/opt/qtsdk-2010.02/qt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games</value>
-    <value type="QString">PWD=/opt/qtsdk-2010.02/bin</value>
+    <value type="QString">PWD=/home/trentonknight</value>
     <value type="QString">QTDIR=/opt/qtsdk-2010.02/qt</value>
-    <value type="QString">SESSION_MANAGER=local/T1000:@/tmp/.ICE-unix/1491,unix/T1000:/tmp/.ICE-unix/1491</value>
+    <value type="QString">SESSION_MANAGER=local/T1000:@/tmp/.ICE-unix/1555,unix/T1000:/tmp/.ICE-unix/1555</value>
     <value type="QString">SHELL=/bin/bash</value>
     <value type="QString">SPEECHD_PORT=7560</value>
-    <value type="QString">SSH_AGENT_PID=1525</value>
-    <value type="QString">SSH_AUTH_SOCK=/tmp/keyring-0EWhfr/ssh</value>
+    <value type="QString">SSH_AGENT_PID=1538</value>
+    <value type="QString">SSH_AUTH_SOCK=/tmp/ssh-HUbQmf1503/agent.1503</value>
     <value type="QString">USER=trentonknight</value>
     <value type="QString">USERNAME=trentonknight</value>
-    <value type="QString">XAUTHORITY=/var/run/gdm/auth-for-trentonknight-QFEAHp/database</value>
-    <value type="QString">XDG_CONFIG_DIRS=/etc/xdg/xdg-gnome:/etc/xdg</value>
-    <value type="QString">XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/</value>
-    <value type="QString">XDG_SESSION_COOKIE=96a2abb8a3af8e7d529331a64b95958e-1278538383.599655-1046614946</value>
+    <value type="QString">XAUTHORITY=/var/run/gdm/auth-for-trentonknight-obR3CS/database</value>
+    <value type="QString">XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg</value>
+    <value type="QString">XDG_DATA_DIRS=/etc/xdg/xdg-xubuntu:/usr/local/share:/usr/share</value>
+    <value type="QString">XDG_SESSION_COOKIE=96a2abb8a3af8e7d529331a64b95958e-1278772882.267941-317537604</value>
    </valuelist>
    <value key="abstractProcess.IgnoreReturnValue" type="bool">false</value>
    <valuelist key="abstractProcess.arguments" type="QVariantList">

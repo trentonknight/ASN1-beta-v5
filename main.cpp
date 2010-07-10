@@ -7,7 +7,6 @@ using namespace std;
 
 void getTicket(ifstream& logTicket, ofstream& logCar, ofstream& logQuad);
 void getFine(double& fine, double& fee);
-void sendForViewer(double& totalAmt, int fines);
 
 
 int main()
@@ -43,12 +42,12 @@ void getTicket(ifstream& logTicket,ofstream& logCar, ofstream& logQuad)
     double sLimit;
     double sBroken;
     double fine, fee, TotalFines;
-    int count;
+    int count, lastCount;
     char ch;
 
     while(logTicket)
     {
-
+        lastCount = 0;
         logCar << endl;
         lastPlateRecord.assign(inputPlate);
         logTicket >> inputPlate;
@@ -57,12 +56,12 @@ void getTicket(ifstream& logTicket,ofstream& logCar, ofstream& logQuad)
         if (lastPlateRecord.compare(inputPlate) != 0)
         {
             logCar << inputPlate << "\t";
-            cout << inputPlate << "\t";
+
             count = 0;
             TotalFines = 0.0;
+            cout << inputPlate << "\t";
 
         }
-
         while((ch != '\n') && logTicket)
         {
             logTicket >> inputQuad >> sLimit >> sBroken;
@@ -73,9 +72,11 @@ void getTicket(ifstream& logTicket,ofstream& logCar, ofstream& logQuad)
             logTicket.get(ch);
             TotalFines = fee + TotalFines;
             count++;
-            sendForViewer(TotalFines, count);
-
-
+            lastCount++;
+        }
+        if(count == lastCount)
+        {
+            cout << count << "\t"<< TotalFines << endl;
         }
     }
 }
@@ -98,10 +99,4 @@ void getFine(double& fine, double& fee)
 
 }
 
-void sendForViewer(double& totalAmt, int fines)
-{
 
-
-    cout << fines << "\t" << totalAmt << endl;
-
-}

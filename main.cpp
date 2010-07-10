@@ -2,6 +2,7 @@
 #include <iomanip>
 #include <fstream>
 #include <string>
+#include <stdio.h>
 
 using namespace std;
 
@@ -81,10 +82,11 @@ void getTicket(ifstream& logTicket,ofstream& logCar, ofstream& logQuad)
             cout << inputPlate << "\t" << count << "\t\t"<< "$" << TotalFines << endl;
         }
         cout << "_" << setw(49) << setfill('_') << "_" << endl;
+
         pauseSystem();
 
     }  
-        cout << "Total District Fines: \t\t$" << TotalTotalFines << endl;
+    cout << "Total District Fines: \t\t$" << TotalTotalFines << endl;
 
 }
 
@@ -114,7 +116,14 @@ void printScreen()
 
 void pauseSystem() {
 
+#ifdef __WIN32
+    system("PAUSE");
+#endif
+#ifdef __WIN64
+    system("PAUSE");
+#endif
+#ifdef linux
     cout << "Press ENTER to continue... " << flush;
     cin.ignore( 1, '\n' );
-
-  }
+#endif
+}

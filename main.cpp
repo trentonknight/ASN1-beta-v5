@@ -8,6 +8,8 @@ using namespace std;
 void getTicket(ifstream& logTicket, ofstream& logCar, ofstream& logQuad);
 void getFine(double& fine, double& fee);
 void printScreen();
+void pauseSystem();
+
 
 int main()
 {
@@ -75,12 +77,14 @@ void getTicket(ifstream& logTicket,ofstream& logCar, ofstream& logQuad)
         }
         if(count == lastCount)
         {
-          printScreen();
-          cout << inputPlate << "\t" << count << "\t\t"<< "$" << TotalFines << endl;
+            printScreen();
+            cout << inputPlate << "\t" << count << "\t\t"<< "$" << TotalFines << endl;
         }
+        cout << "_" << setw(49) << setfill('_') << "_" << endl;
+        pauseSystem();
 
-    }
-     cout << "Total District Fines: \t\t$" << TotalTotalFines << endl;
+    }  
+        cout << "Total District Fines: \t\t$" << TotalTotalFines << endl;
 
 }
 
@@ -104,6 +108,13 @@ void getFine(double& fine, double& fee)
 
 void printScreen()
 {
-   cout << fixed << showpoint << setprecision(2) << endl;
-   cout << "License\t" << "Number Tickets\t" << "Total Fines" << endl;
+    cout << fixed << showpoint << setprecision(2) << endl;
+    cout << "License\t" << "Number Tickets\t" << "Total Fines" << endl;
 }
+
+void pauseSystem() {
+
+    cout << "Press ENTER to continue... " << flush;
+    cin.ignore( 1, '\n' );
+
+  }

@@ -58,12 +58,14 @@ void getTicket(ifstream& logTicket,ofstream& logCar, ofstream& logQuad)
         logTicket.get(ch);
         TotalTotalFines = TotalFines + TotalTotalFines;
 
+
         if (lastPlateRecord.compare(inputPlate) != 0)
         {
             logCar << inputPlate << "\t";
             count = 0;
-            TotalFines = 0.0;       
+            TotalFines = 0.0;
         }
+
         while((ch != '\n') && logTicket)
         {
             logTicket >> inputQuad >> sLimit >> sBroken;
@@ -75,15 +77,17 @@ void getTicket(ifstream& logTicket,ofstream& logCar, ofstream& logQuad)
             TotalFines = fee + TotalFines;
             count++;
             lastCount++;
+
+
         }
         if(count == lastCount)
         {
             printScreen();
-            cout << inputPlate << "\t" << count << "\t\t"<< "$" << TotalFines << endl;
-        }
-        cout << "_" << setw(49) << setfill('_') << "_" << endl;
 
-        pauseSystem();
+            cout << inputPlate << "\t\t" << count << "\t" << "$" << TotalFines << endl;
+            cout << "_" << setw(49) << setfill('_') << "_" << endl;
+        }
+
 
     }  
     cout << "Total District Fines: \t\t$" << TotalTotalFines << endl;
@@ -110,8 +114,10 @@ void getFine(double& fine, double& fee)
 
 void printScreen()
 {
+
     cout << fixed << showpoint << setprecision(2) << endl;
     cout << "License\t" << "Number Tickets\t" << "Total Fines" << endl;
+
 }
 
 void pauseSystem() {
@@ -122,8 +128,9 @@ void pauseSystem() {
 #ifdef __WIN64
     system("PAUSE");
 #endif
-#ifdef linux
+#ifdef LINUX
     cout << "Press ENTER to continue... " << flush;
     cin.ignore( 1, '\n' );
 #endif
+
 }

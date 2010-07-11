@@ -96,8 +96,8 @@ void printScreen()
     ifstream printTick;
     string plate;
     char ch;
-    double fine, total;
-    int Tfines;
+    double fine, total, totalC;
+    int Tfines, prnt;
     printTick.open("CARFINES.TXT");
 
     cout << fixed << showpoint << setprecision(2) << endl;
@@ -110,6 +110,7 @@ void printScreen()
         total = 0;
         Tfines = 0;
         cout << plate << "\t";
+        prnt++;
 
 
         while((ch !='\n') && printTick >> fine)
@@ -119,9 +120,18 @@ void printScreen()
             Tfines++;
 
         }
-        cout << Tfines << "\t" << "$" << total << endl;
+        totalC = total + totalC;
+        cout << Tfines << "\t\t" << "$" << total << endl;
         cout << "_" << setw(49) << setfill('_') << "_" << endl;
+        if(prnt > 4)
+        {
+          pauseSystem();
+          prnt = 0;
+          cout << fixed << showpoint << setprecision(2) << endl;
+          cout << "License\t" << "Number Tickets\t" << "Total Fines" << endl;
+        }
     }
+    cout << "Total City Fines: \t" << "$" << totalC << endl << endl;
     printTick.close();
 
 }
